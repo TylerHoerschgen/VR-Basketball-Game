@@ -1,5 +1,3 @@
 # 4610GroupProject
 
-This is Tyler Hoerschgen's and Tarek Elbendary's Final Project for CS-4610
-
-It's a VR Basketball shooter game. The Player has attempts to score as many points in 60 seconds as possible
+This is a virtual reality(VR) basketball shooter game created by Tyler Hoerschgen and Tarek Elbendary for CS4610. In the game, the player attempts to score the most points they can within the 60 seconds they’re given. The project report can be found under the name [CS4610 Final Project Report](https://github.com/TylerHoerschgen/4610GroupProject/blob/main/CS4610%20Final%20Project%20Report.docx) and the video can be found [here](https://www.youtube.com/watch?v=g64hAX3auDk).
