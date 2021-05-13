@@ -22,13 +22,13 @@ public class Timer : MonoBehaviour
             if (timerTime > 0)
             {
                 timerTime -= Time.deltaTime;
-                timer.text = timerTime.ToString("#0.0");
+                timer.text = timerTime.ToString("#0.00");
             }
             else
             {
                 startTimer = false;
                 timerTime = 60;
-                timer.text = timerTime.ToString("#0.0");
+                timer.text = timerTime.ToString("#0.00");
 
                 spawnBall.Despawn();
 
@@ -47,6 +47,7 @@ public class Timer : MonoBehaviour
                     highScore.text = score.text;
                     
                     audio.highScoreSound();
+                    audio.louder();
                 }
                 else
                 {

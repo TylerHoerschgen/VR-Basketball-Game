@@ -64,12 +64,15 @@ public class spawnBall : MonoBehaviour
                 }
                 else
                 {
-                    interactable = spawnedBallsList[1].GetComponent<InteractableFacade>();
-                    if (!interactable.IsGrabbed)
+                    if(spawnedBallsList[1])
                     {
-                        Destroy(spawnedBallsList[1]);
-                        spawnedBallsList.RemoveAt(1);
+                        interactable = spawnedBallsList[1].GetComponent<InteractableFacade>();
+                        if (!interactable.IsGrabbed)
+                        {
+                            Destroy(spawnedBallsList[1]);
+                        }
                     }
+                    spawnedBallsList.RemoveAt(1);
                 }
                 
             }
